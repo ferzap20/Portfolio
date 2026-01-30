@@ -10,10 +10,10 @@ export default function Header({ title }: HeaderProps) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: '/ia-tests', label: 'IA Projects' },
-    { href: '/process', label: 'Design Process / DesingOps' },
-    { href: '/management', label: 'Product Mangement / Ownership' },
-    { href: '/research', label: 'UX Research' },
+    { href: '/ia-tests', label: 'Exploratory Vibecoding Experiments' },
+    { href: '/process', label: 'Design Process' },
+    { href: '/management', label: 'Product Mangement' },
+    { href: '/research', label: 'UX Research Projects' },
     { href: '/brand', label: 'Design Showcase' }
   ];
 
