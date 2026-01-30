@@ -39,7 +39,7 @@ export default function Hero({ name, title, tagline, cv }: HeroProps) {
             </p>
             <div style={{ display: 'flex', gap: 'var(--space-md)', flexWrap: 'wrap' }}>
               <Button variant="primary" href="#work">View my Work</Button>
-              <Button variant="secondary" href={cv}>Download my CV</Button>
+              <Button variant="secondary" href={cv}>Download CV</Button>
             </div>
           </div>
           <div style={{
