@@ -273,7 +273,7 @@
       "approach": [
         "Conducted comparative analysis against industry VR platforms",
         "Ran moderated usability sessions and observational research",
-        "Iterated navigation concepts and validated with users in VR prototypes",
+        "Iterated navigation concepts and validated with users in VR prototypes", 
         "Documented interaction patterns and handed off specs to engineering"
       ],
       "outcome": "Implemented a navigation model aligned with familiar VR standards, reducing user confusion and easing onboarding."
