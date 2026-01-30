@@ -1,5 +1,6 @@
 import Hero from '../components/Hero';
 import CaseList from '../components/CaseList';
+import BentoMenu from '../components/BentoMenu';
 import { useContent } from '../hooks/useContent';
 
 export default function HomePage() {
@@ -33,6 +34,9 @@ export default function HomePage() {
           <CaseList cases={content.latest_works} />
         </div>
       </section>
+
+      {/* Bento menu section with navigation to different work categories */}
+      <BentoMenu />
     </>
   );
 }
