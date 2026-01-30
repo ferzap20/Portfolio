@@ -83,7 +83,7 @@ export default function Header({ title }: HeaderProps) {
                 style={{ fontSize: 'var(--font-size-sm)' }}
               >
                 
-                Download my CV
+                Download CV
               </a>
             </nav>
 
