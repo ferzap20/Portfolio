@@ -19,7 +19,7 @@
       "role": "Ideation & Vibecoding",
       "tools": ["Figma", "Bolt.new", "github"],
       "blurb": "Reimplementation of a prior project to investigate vibecoding methodologies.",
-      "hero":  "public/timap_placeholder.png",
+      "hero":  "/timap_placeholder.png",
       "gallery": [],    
   "problem": "Timat is A platform for finding, creating, and joining sports matches. The legacy project lacked a clear interaction strategy and provided no structured way to evaluate how vibecoding principles could enhance product differentiation or user engagement.",
   "approach": [
