@@ -6,11 +6,11 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: '/ia-tests', label: 'Experiments' },
-    { href: '/process', label: 'Process' },
-    { href: '/management', label: 'Management' },
-    { href: '/research', label: 'Research' },
-    { href: '/brand', label: 'Brand' }
+    { href: '/ia-tests', label: 'Vibecoding Exploratory Experiments' },
+    { href: '/process', label: 'Design Process' },
+    { href: '/management', label: 'Product Management' },
+    { href: '/research', label: 'UX Research Projects' },
+    { href: '/brand', label: 'Design Gallery' }
   ];
 
   return (
@@ -41,7 +41,7 @@ export default function Header() {
                 alignItems: 'center'
               }}
               onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-accent)'}
-              onMouseLeave={(e) => e.currentTarget.style.color = 'var(--color-text)'}
+              onMouseLeave={(e) => e.currentTarget.style.color = 'var(#FFF)'}
               aria-label="Home"
             >
               <Home size={24} />
