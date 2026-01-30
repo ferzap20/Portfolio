@@ -33,7 +33,7 @@ export default function Header() {
             <Link
               to="/"
               style={{
-                color: 'var(--color-text)',
+                color: 'var(--color-bg)',
                 textDecoration: 'none',
                 padding: 'var(--space-xs)',
                 transition: 'color var(--transition-fast)',
@@ -41,7 +41,7 @@ export default function Header() {
                 alignItems: 'center'
               }}
               onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-accent)'}
-              onMouseLeave={(e) => e.currentTarget.style.color = 'var(#FFF)'}
+              onMouseLeave={(e) => e.currentTarget.style.color = 'var(--color-bg)'}
               aria-label="Home"
             >
               <Home size={24} />
