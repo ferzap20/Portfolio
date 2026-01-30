@@ -12,24 +12,24 @@
     "cv": "/fernando_zapata_cv_-_eng.pdf"
   },
   "latest_works": [
-    {
-      "slug": "skyreal-vr",
-      "title": "VR Interaction Design for Enterprise Solution",
-      "year": "2021",
-      "role": "Product / XR Interaction Designer",
-      "tools": ["Figma", "Unity", "UserTesting", "Miro"],
-      "blurb": "Defined core VR interactions and delivered prototypes and specs to engineering.",
-      "hero": "",
-      "gallery": [],
-      "problem": "Lack of consistent interaction patterns and unclear hand/gesture metaphors across the VR product slowed development and confused users.",
-      "approach": [
-        "Conducted stakeholder workshops to align product and engineering goals",
-        "Ran user research sessions and usability tests in VR prototypes",
-        "Iterated interaction concepts and created high-fidelity VR prototypes in Unity",
-        "Documented interaction specs and handed off assets to the software team"
-      ],
-      "outcome": "Established a consistent interaction system and engineering-ready specifications that accelerated implementation and reduced rework."
-    },
+   {
+      "slug": "Timap!",
+      "title": "A platform for finding, creating, and joining sports matches",
+      "year": "2026",
+      "role": "Ideation & Vibecoding",
+      "tools": ["Figma", "Bolt.new", "Supabase", "github"],
+      "blurb": "Reimplementation of a prior project to investigate vibecoding methodologies.",
+      "hero":  "/home/project/public/timap_placeholder.png",
+      "gallery": [],    
+  "problem": "The legacy project lacked a clear interaction strategy and provided no structured way to evaluate how vibecoding principles could enhance product differentiation or user engagement.",
+  "approach": [
+    "Rebuilt the product end‑to‑end to create a stable foundation for experimentation",
+    "Explored multiple mood‑driven interaction models to identify opportunities for added user value",
+    "Prototyped and refined vibecoding behaviors to assess their impact on usability and product feel",
+    "Documented insights and defined actionable patterns that could inform future product directions"
+  ],
+  "outcome": "Delivered an updated prototype demonstrating how vibecoding can elevate the product experience, offering concrete patterns and learnings that support strategic decision‑making for future feature development."
+},
     {
       "slug": "portfolio-2026-overview",
       "title": "Portfolio 2026 — Product & Design Ops",
