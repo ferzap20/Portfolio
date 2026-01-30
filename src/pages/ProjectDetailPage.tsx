@@ -35,7 +35,7 @@
 
 import { useParams, Link } from 'react-router-dom';
 import { useCaseStudy, useCaseStudies } from '../hooks/useFetchData';
-import { Gallery } from '../components/Gallery';
+import BentoGallery from '../components/BentoGallery';
 
 export function ProjectDetailPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -62,14 +62,9 @@ export function ProjectDetailPage() {
   // Get related projects (other cases)
   const relatedProjects = allCases.filter((c) => c.slug !== slug).slice(0, 2);
 
-  // Convert gallery URLs to GalleryItem format for Gallery component
-  const galleryItems = currentCase.gallery_urls.map((url, index) => ({
-    id: `${currentCase.id}-${index}`,
-    image_url: url,
-    caption: `Project gallery image ${index + 1}`,
-    alt_text: `${currentCase.title} - Image ${index + 1}`,
-    section: 'Brand/Web',
-    order_index: index,
+  const galleryImages = currentCase.gallery_urls.map((url) => ({
+    src: url,
+    alt: `${currentCase.title} gallery image`
   }));
 
   return (
@@ -145,10 +140,10 @@ export function ProjectDetailPage() {
           </section>
 
           {/* Gallery */}
-          {galleryItems.length > 0 && (
+          {galleryImages.length > 0 && (
             <section style={{ marginTop: 'var(--space-6)' }}>
               <h2 className="text-h2">Gallery</h2>
-              <Gallery items={galleryItems} />
+              <BentoGallery images={galleryImages} />
             </section>
           )}
 

@@ -4,11 +4,27 @@ import Lightbox from './Lightbox';
 interface GalleryImage {
   src: string;
   alt: string;
-  ratio: string;
+  ratio?: string;
 }
 
 interface BentoGalleryProps {
   images: GalleryImage[];
+}
+
+function getGridSpan(index: number, total: number): { col: number; row: number } {
+  const patterns = [
+    { col: 2, row: 2 },
+    { col: 1, row: 1 },
+    { col: 1, row: 1 },
+    { col: 1, row: 2 },
+    { col: 2, row: 1 },
+    { col: 1, row: 1 },
+    { col: 1, row: 1 },
+    { col: 1, row: 2 },
+    { col: 2, row: 2 },
+  ];
+
+  return patterns[index % patterns.length];
 }
 
 export default function BentoGallery({ images }: BentoGalleryProps) {
@@ -34,46 +50,36 @@ export default function BentoGallery({ images }: BentoGalleryProps) {
 
   return (
     <>
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
-        gap: 'var(--space-md)',
-        marginBottom: 'var(--space-xl)'
-      }}>
-        {images.map((image, index) => (
-          <div
-            key={index}
-            onClick={() => openLightbox(index)}
-            style={{
-              borderRadius: 'var(--radius)',
-              overflow: 'hidden',
-              cursor: 'pointer',
-              background: 'var(--color-surface)',
-              border: '1px solid var(--color-border)',
-              transition: 'all var(--transition-base)'
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.transform = 'translateY(-4px)';
-              e.currentTarget.style.borderColor = 'var(--color-text-secondary)';
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.transform = 'translateY(0)';
-              e.currentTarget.style.borderColor = 'var(--color-border)';
-            }}
-          >
-            <img
-              src={image.src}
-              alt={image.alt}
-              loading="lazy"
+      <div className="bento-gallery">
+        {images.map((image, index) => {
+          const span = getGridSpan(index, images.length);
+          return (
+            <div
+              key={index}
+              className="bento-gallery__item"
               style={{
-                width: '100%',
-                aspectRatio: image.ratio.replace(':', '/'),
-                objectFit: 'cover',
-                display: 'block'
+                gridColumn: `span ${span.col}`,
+                gridRow: `span ${span.row}`
               }}
-            />
-          </div>
-        ))}
+              onClick={() => openLightbox(index)}
+              role="button"
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  openLightbox(index);
+                }
+              }}
+            >
+              <img
+                src={image.src}
+                alt={image.alt}
+                loading="lazy"
+                className="bento-gallery__image"
+              />
+              <div className="bento-gallery__overlay" />
+            </div>
+          );
+        })}
       </div>
 
       {lightboxOpen && (

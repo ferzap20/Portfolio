@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { useContent } from '../hooks/useContent';
 import Tag from '../components/Tag';
+import BentoGallery from '../components/BentoGallery';
 
 export default function CaseDetailPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -194,24 +195,12 @@ export default function CaseDetailPage() {
             }}>
               Gallery
             </h2>
-            <div style={{
-              display: 'grid',
-              gridTemplateColumns: '1fr',
-              gap: 'var(--space-lg)'
-            }}>
-              {caseStudy.gallery.map((img, idx) => (
-                <img
-                  key={idx}
-                  src={img}
-                  alt={`${caseStudy.title} ${idx + 1}`}
-                  style={{
-                    width: '100%',
-                    borderRadius: 'var(--radius)'
-                  }}
-                  loading="lazy"
-                />
-              ))}
-            </div>
+            <BentoGallery
+              images={caseStudy.gallery.map((img) => ({
+                src: img,
+                alt: `${caseStudy.title} gallery image`
+              }))}
+            />
           </div>
         )}
       </div>
