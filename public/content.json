@@ -19,7 +19,7 @@
       "role": "Ideation & Vibecoding",
       "tools": ["Figma", "Bolt.new", "Supabase", "github"],
       "blurb": "Reimplementation of a prior project to investigate vibecoding methodologies.",
-      "hero":  "/home/project/public/timap_placeholder.png",
+      "hero":  "public/timap_placeholder.png",
       "gallery": ["/home/project/public/timap_placeholder.png"],    
   "problem": "The legacy project lacked a clear interaction strategy and provided no structured way to evaluate how vibecoding principles could enhance product differentiation or user engagement.",
   "approach": [
