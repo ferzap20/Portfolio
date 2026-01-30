@@ -361,5 +361,30 @@
      "alt": "Logo Design",
       "ratio": "16:9"
     }
+        {
+      "src": "/Projects/Showcase/app02.png",
+      "alt": "Logo Design",
+      "ratio": "1:1"
+    },
+    {
+      "src": "/Projects/Showcase/app03.png",
+      "alt": "Logo Design",
+      "ratio": "3:4"
+    },
+    {
+      "src": "/Projects/Showcase/app04.png",
+     "alt": "Logo Design",
+      "ratio": "16:9"
+    }
+      {
+      "src": "/Projects/Showcase/app05.png",
+      "alt": "Logo Design",
+      "ratio": "3:4"
+    }
+      {
+      "src": "/Projects/Showcase/app01.png",
+      "alt": "Logo Design",
+      "ratio": "1:1"
+    }
   ]
 }
