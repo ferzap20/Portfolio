@@ -38,7 +38,7 @@
       "tools": ["Figma", "Bolt.new", "Supabase"],
       "blurb": "Reimplementation of a prior project to investigate vibecoding methodologies.",
       "hero": "/Projects/DDY/ddy_logo.png",
-      "gallery": [],
+      "gallery": ["/Projects/DDY/ddy01.png","/Projects/DDY/ddy02.png","/Projects/DDY/dd03.png","/Projects/DDY/04.png","/Projects/DDY/ddy05.png"],
       "problem": "Users lacked a simple, engaging way to create and participate in social challenges with clear objectives, progress tracking, and accountability features.", "approach": [ "Designed and developed a mobile app enabling users to create challenges with goals, durations, rewards, and optional proof requirements", "Built participation flows allowing individuals and groups to join challenges and track daily progress", "Implemented social sharing features to increase visibility and encourage community engagement", "Refined the user experience through iterative prototyping and continuous testing" ], "outcome": "Delivered a fully functional iPhone app that streamlines social challenge creation and participation, increasing user engagement through structured goals, progress tracking, and shareable achievements." },
      {
       "slug": "ai-ux-research-tool",
