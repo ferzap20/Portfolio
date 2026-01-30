@@ -1,20 +1,16 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Home } from 'lucide-react';
 
-interface HeaderProps {
-  title: string;
-}
-
-export default function Header({ title }: HeaderProps) {
+export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: '/ia-tests', label: 'Exploratory Vibecoding Experiments' },
-    { href: '/process', label: 'Design Process' },
-    { href: '/management', label: 'Product Mangement' },
-    { href: '/research', label: 'UX Research Projects' },
-    { href: '/brand', label: 'Design Showcase' }
+    { href: '/ia-tests', label: 'Experiments' },
+    { href: '/process', label: 'Process' },
+    { href: '/management', label: 'Management' },
+    { href: '/research', label: 'Research' },
+    { href: '/brand', label: 'Brand' }
   ];
 
   return (
@@ -37,13 +33,18 @@ export default function Header({ title }: HeaderProps) {
             <Link
               to="/"
               style={{
-                fontSize: 'var(--font-size-lg)',
-                fontWeight: 600,
                 color: 'var(--color-text)',
-                textDecoration: 'none'
+                textDecoration: 'none',
+                padding: 'var(--space-xs)',
+                transition: 'color var(--transition-fast)',
+                display: 'flex',
+                alignItems: 'center'
               }}
+              onMouseEnter={(e) => e.currentTarget.style.color = 'var(--color-accent)'}
+              onMouseLeave={(e) => e.currentTarget.style.color = 'var(--color-text)'}
+              aria-label="Home"
             >
-              {title}
+              <Home size={24} />
             </Link>
 
             <nav style={{

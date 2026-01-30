@@ -18,7 +18,7 @@ function App() {
   return (
     <Router>
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-      {content && <Header name={content.site.name} />}
+      <Header />
 
         <main style={{ flex: 1 }}>
           <Routes>
