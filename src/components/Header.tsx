@@ -150,7 +150,7 @@ export default function Header({ title }: HeaderProps) {
               className="btn btn-primary"
               style={{ marginTop: 'var(--space-md)' }}
             >
-              Download my CV
+              Download CV
             </a>
           </nav>
         </div>
