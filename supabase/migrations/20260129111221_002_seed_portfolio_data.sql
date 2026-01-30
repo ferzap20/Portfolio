@@ -28,7 +28,7 @@ ON CONFLICT DO NOTHING;
 INSERT INTO case_studies (slug, title, year, role, tools, blurb, hero_image_url, problem, approach, outcome, gallery_urls, process_steps, order_index, is_active)
 VALUES 
 (
-  'skyreal-vr-interaction-design',
+  'what what what',
   'SkyReal VR: Core Interaction Design',
   2023,
   'UX/XR Designer',
