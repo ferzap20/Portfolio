@@ -40,23 +40,23 @@
       "hero": "",
       "gallery": [],
       "problem": "Users lacked a simple, engaging way to create and participate in social challenges with clear objectives, progress tracking, and accountability features.", "approach": [ "Designed and developed a mobile app enabling users to create challenges with goals, durations, rewards, and optional proof requirements", "Built participation flows allowing individuals and groups to join challenges and track daily progress", "Implemented social sharing features to increase visibility and encourage community engagement", "Refined the user experience through iterative prototyping and continuous testing" ], "outcome": "Delivered a fully functional iPhone app that streamlines social challenge creation and participation, increasing user engagement through structured goals, progress tracking, and shareable achievements." },
-    {
-      "slug": "squadra-brand-design",
-      "title": "SQUADRA Brand Identity",
-      "year": "2025",
-      "role": "Brand & Visual Designer",
-      "tools": ["Illustrator", "Figma", "Photoshop"],
-      "blurb": "Created a cohesive brand identity system to unify visual language across touchpoints.",
+     {
+      "slug": "ai-ux-research-tool",
+      "title": "AI as a UX Research Tool (Thinking Styles)",
+      "year": "2021",
+      "role": "Research Experimenter",
+      "tools": ["ChatGPT", "Miro", "Figma"],
+      "blurb": "Explored using AI to synthesize research into 'Thinking Styles' frameworks and journey maps.",
       "hero": "",
       "gallery": [],
-      "problem": "Disparate visual assets and inconsistent brand language weakened recognition and trust.",
+      "problem": "Need for faster synthesis of qualitative research into actionable patterns for non-technical users.",
       "approach": [
-        "Audited existing brand assets and touchpoints",
-        "Defined core visual principles and a flexible logo system",
-        "Designed color, typography, and iconography guidelines",
-        "Delivered brand templates and usage rules for digital and print"
+        "Defined a simulated problem statement for an ed‑tech product",
+        "Used AI prompts to transform research documents into Thinking Styles patterns",
+        "Created tables, journey maps, and synthesized insights from AI outputs",
+        "Validated AI-generated artifacts against researcher reviews and refined prompts"
       ],
-      "outcome": "Launched a consistent brand system that improved visual cohesion and sped up creative production."
+      "outcome": "Produced structured research artifacts and journey maps that accelerated early-stage synthesis and ideation."
     }
   ],
   "ia_experiments": [
