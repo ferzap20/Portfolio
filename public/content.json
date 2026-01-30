@@ -20,7 +20,7 @@
       "tools": ["Figma", "Bolt.new", "Supabase", "github"],
       "blurb": "Reimplementation of a prior project to investigate vibecoding methodologies.",
       "hero":  "public/timap_placeholder.png",
-      "gallery": ["/timap_placeholder.png"],    
+      "gallery": [],    
   "problem": "The legacy project lacked a clear interaction strategy and provided no structured way to evaluate how vibecoding principles could enhance product differentiation or user engagement.",
   "approach": [
     "Rebuilt the product end‑to‑end to create a stable foundation for experimentation",
@@ -30,12 +30,16 @@
   ],
   "outcome": "Delivered an updated prototype demonstrating how vibecoding can elevate the product experience, offering concrete patterns and learnings that support strategic decision‑making for future feature development."
 },
-    { "problem": "Users lacked a simple, engaging way to create and participate in social challenges with clear objectives, progress tracking, and accountability features.", 
-      "approach": [ "Designed and developed a mobile app enabling users to create challenges with goals, durations, rewards, and optional proof requirements", 
-        "Built participation flows allowing individuals and groups to join challenges and track daily progress", 
-        "Implemented social sharing features to increase visibility and encourage community engagement", 
-        "Refined the user experience through iterative prototyping and continuous testing" ], 
-      "outcome": "Delivered a fully functional iPhone app that streamlines social challenge creation and participation, increasing user engagement through structured goals, progress tracking, and shareable achievements." },
+    {
+      "slug": "portfolio-2026-overview",
+      "title": "Portfolio 2026 — Product & Design Ops",
+      "year": "2026",
+      "role": "Product Designer / Design Ops",
+      "tools": ["Figma", "Miro", "Notion"],
+      "blurb": "A curated showcase of recent product work, design systems, and research use cases.",
+      "hero": "",
+      "gallery": [],
+      "problem": "Users lacked a simple, engaging way to create and participate in social challenges with clear objectives, progress tracking, and accountability features.", "approach": [ "Designed and developed a mobile app enabling users to create challenges with goals, durations, rewards, and optional proof requirements", "Built participation flows allowing individuals and groups to join challenges and track daily progress", "Implemented social sharing features to increase visibility and encourage community engagement", "Refined the user experience through iterative prototyping and continuous testing" ], "outcome": "Delivered a fully functional iPhone app that streamlines social challenge creation and participation, increasing user engagement through structured goals, progress tracking, and shareable achievements." },
     {
       "slug": "squadra-brand-design",
       "title": "SQUADRA Brand Identity",
