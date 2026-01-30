@@ -13,12 +13,14 @@ export default function CaseList({ cases }: CaseListProps) {
       gap: 'var(--space-lg)'
     }} className="case-list">
       <style>{`
+        /* Tablet: 2 columns */
         @media (min-width: 768px) {
           .case-list {
             grid-template-columns: repeat(2, 1fr);
           }
         }
-        @media (min-width: 1200px) {
+        /* Desktop: 3 columns in one horizontal line */
+        @media (min-width: 1024px) {
           .case-list {
             grid-template-columns: repeat(3, 1fr);
           }
