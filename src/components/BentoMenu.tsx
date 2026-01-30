@@ -33,7 +33,7 @@ const bentoItems: BentoItem[] = [
     subtitle: 'Design Systems & Operations',
     href: '/process',
     icon: Workflow,
-    color: '#C4E8D4'
+    color: '#00BFA6'
   },
   {
     id: 'product-management',
