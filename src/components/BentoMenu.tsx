@@ -57,7 +57,7 @@ const bentoItems: BentoItem[] = [
     subtitle: 'Visual identity & branding',
     href: '/brand',
     icon: Palette,
-    color: '##5faffd'
+    color: '#5faffd'
   }
 ];
 
