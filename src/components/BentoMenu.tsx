@@ -25,7 +25,7 @@ const bentoItems: BentoItem[] = [
     subtitle: 'Information Architecture experiments',
     href: '/ia-tests',
     icon: Network,
-    color: '#B8D4E8'
+    color: '#a69cff'
   },
   {
     id: 'design-process',
@@ -41,7 +41,7 @@ const bentoItems: BentoItem[] = [
     subtitle: 'Strategic thinking & planning',
     href: '/management',
     icon: Zap,
-    color: '#F9D5B7'
+    color: '#f78f46'
   },
   {
     id: 'ux-research',
@@ -49,7 +49,7 @@ const bentoItems: BentoItem[] = [
     subtitle: 'User insights & discoveries',
     href: '/research',
     icon: Lightbulb,
-    color: '#D8C4E8'
+    color: '#f3eada'
   },
   {
     id: 'design-showcase',
@@ -57,7 +57,7 @@ const bentoItems: BentoItem[] = [
     subtitle: 'Visual identity & branding',
     href: '/brand',
     icon: Palette,
-    color: '#F9C4C4'
+    color: '##5faffd'
   }
 ];
 
