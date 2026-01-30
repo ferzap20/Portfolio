@@ -298,24 +298,34 @@
   ],
   "gallery": [
     {
-      "src": "",
-      "alt": "Workshop collaboration session",
+      "src": "/Projects/Showcase/logo01.png",
+      "alt": "Logo Design",
       "ratio": "16:9"
     },
     {
-      "src": "",
-      "alt": "Mobile prototype testing",
+      "src": "/Projects/Showcase/logo02.png",
+      "alt": "Logo Design",
       "ratio": "1:1"
     },
     {
-      "src": "",
-      "alt": "Design system components",
+      "src": "/Projects/Showcase/logo03.png",
+      "alt": "Logo Design",
       "ratio": "3:4"
     },
     {
-      "src": "",
-      "alt": "User research synthesis",
+      "src": "/Projects/Showcase/logo04.png",
+     "alt": "Logo Design",
       "ratio": "16:9"
+    }
+      {
+      "src": "/Projects/Showcase/logo05.png",
+      "alt": "Logo Design",
+      "ratio": "3:4"
+    }
+      {
+      "src": "/Projects/Showcase/logo06.png",
+      "alt": "Logo Design",
+      "ratio": "1:1"
     }
   ]
 }
