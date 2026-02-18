@@ -1,0 +1,390 @@
+{
+  "site": {
+    "name": "Hello! I'm Fernando",
+    "name_header": "Fernando",
+    "title": "Home",
+    "tagline": "I'm Product Designer with 7+ years of experience in the digital world. I love to create human-centered experiences with an strategic thinking",
+    "bio": "I'm a product designer who bridges user research, information architecture, and interaction design to create products people love to use.",
+    "email": "fernandozapata@protonmail.com",
+    "linkedin": "https://www.linkedin.com/in/ferzapata/",
+    "github": "https://github.com/ferzap20",
+    "headshot": "/home/project/public/img_fz.jpg",
+    "cv": "/fernando_zapata_cv_-_eng.pdf"
+  },
+  "latest_works": [
+   {
+      "slug": "Timap!",
+      "title": "Timap!",
+      "year": "2026",
+      "role": "Ideation & Vibecoding",
+      "tools": ["Figma", "Bolt.new", "github"],
+      "blurb": "Reimplementation of a prior project to investigate vibecoding methodologies.",
+      "hero":  "/Projects/Timap/timap_placeholder.png",
+      "gallery": ["/Projects/Timap/timap_front.png", "/Projects/Timap/timap01.png", "/Projects/Timap/timap02.png", "/Projects/Timap/timap03.png", "/Projects/Timap/timap04.png"],    
+  "problem": "Timat is A platform for finding, creating, and joining sports matches. The legacy project lacked a clear interaction strategy and provided no structured way to evaluate how vibecoding principles could enhance product differentiation or user engagement.",
+  "approach": [
+    "Rebuilt the product end‑to‑end to create a stable foundation for experimentation",
+    "Explored multiple mood‑driven interaction models to identify opportunities for added user value",
+    "Prototyped and refined vibecoding behaviors to assess their impact on usability and product feel",
+    "Documented insights and defined actionable patterns that could inform future product directions"
+  ],
+  "outcome": "Delivered an updated prototype demonstrating how vibecoding can elevate the product experience, offering concrete patterns and learnings that support strategic decision‑making for future feature development."
+},
+    {
+      "slug": "Double Dare You",
+      "title": "Double Dare You",
+      "year": "2025",
+      "role": "Ideation & Vibecoding",
+      "tools": ["Figma", "Bolt.new", "Supabase"],
+      "blurb": "Reimplementation of a prior project to investigate vibecoding methodologies.",
+      "hero": "/Projects/DDY/ddy_logo.png",
+      "gallery": ["/Projects/DDY/ddy01.png","/Projects/DDY/ddy02.png","/Projects/DDY/ddy03.png","/Projects/DDY/ddy04.png","/Projects/DDY/ddy05.png"],
+      "problem": "Users lacked a simple, engaging way to create and participate in social challenges with clear objectives, progress tracking, and accountability features.", "approach": [ "Designed and developed a mobile app enabling users to create challenges with goals, durations, rewards, and optional proof requirements", "Built participation flows allowing individuals and groups to join challenges and track daily progress", "Implemented social sharing features to increase visibility and encourage community engagement", "Refined the user experience through iterative prototyping and continuous testing" ], "outcome": "Delivered a fully functional iPhone app that streamlines social challenge creation and participation, increasing user engagement through structured goals, progress tracking, and shareable achievements." },
+     {
+      "slug": "ai-ux-research-tool",
+      "title": "AI as a UX Research Tool (Thinking Styles)",
+      "year": "2025",
+      "role": "Research Experimenter",
+      "tools": ["ChatGPT", "Miro", "Figma"],
+      "blurb": "Explored using AI to synthesize research into 'Thinking Styles' frameworks and journey maps.",
+      "hero": "",
+      "gallery": [],
+      "problem": "Need for faster synthesis of qualitative research into actionable patterns for non-technical users.",
+      "approach": [
+        "Defined a simulated problem statement for an ed‑tech product",
+        "Used AI prompts to transform research documents into Thinking Styles patterns",
+        "Created tables, journey maps, and synthesized insights from AI outputs",
+        "Validated AI-generated artifacts against researcher reviews and refined prompts"
+      ],
+      "outcome": "Produced structured research artifacts and journey maps that accelerated early-stage synthesis and ideation."
+    }
+  ],
+  "ia_experiments": [
+    {
+      "slug": "ai-ux-research-tool",
+      "title": "AI as a UX Research Tool (Thinking Styles)",
+      "year": "2021",
+      "role": "Research Experimenter",
+      "tools": ["ChatGPT", "Miro", "Figma"],
+      "blurb": "Explored using AI to synthesize research into 'Thinking Styles' frameworks and journey maps.",
+      "hero": "",
+      "gallery": [],
+      "problem": "Need for faster synthesis of qualitative research into actionable patterns for non-technical users.",
+      "approach": [
+        "Defined a simulated problem statement for an ed‑tech product",
+        "Used AI prompts to transform research documents into Thinking Styles patterns",
+        "Created tables, journey maps, and synthesized insights from AI outputs",
+        "Validated AI-generated artifacts against researcher reviews and refined prompts"
+      ],
+      "outcome": "Produced structured research artifacts and journey maps that accelerated early-stage synthesis and ideation."
+    },
+    {
+      "slug": "card-sorting-study",
+      "title": "E-commerce Navigation Restructure",
+      "year": "2024",
+      "role": "IA Lead",
+      "tools": ["OptimalSort", "Treejack", "Figma"],
+      "blurb": "Validated a new taxonomy with 100+ participants.",
+      "hero": "",
+      "gallery": [],
+      "problem": "Users struggled to find products in existing navigation structure.",
+      "approach": [
+        "Ran open card sort with 50 participants",
+        "Validated results with closed card sort",
+        "Tree testing to measure findability improvements"
+      ],
+      "outcome": "Redesigned navigation improved findability by 35%."
+    },
+    {
+      "slug": "taxonomy-design",
+      "title": "Multi-tenant Product Taxonomy",
+      "year": "2023",
+      "role": "IA Designer",
+      "tools": ["Miro", "Figma", "UserZoom"],
+      "blurb": "Designed a flexible taxonomy serving diverse user groups.",
+      "hero": "",
+      "gallery": [],
+      "problem": "Platform needed to serve users with vastly different mental models.",
+      "approach": [
+        "Interviewed stakeholders across segments",
+        "Created flexible faceted taxonomy",
+        "Validated with representative users"
+      ],
+      "outcome": "Successfully launched taxonomy to multiple customer segments."
+    }
+  ],
+  "product_process": [
+    {
+      "slug": "design-system-vr",
+      "title": "Design System for VR",
+      "year": "2023",
+      "role": "Design System Lead / XR Designer",
+      "tools": ["Figma", "Unity", "Confluence"],
+      "blurb": "Built the first centralized design system for a VR product to bring consistency and speed to design and development.",
+      "hero": "",
+      "gallery": [],
+      "problem": "Lack of shared design standards led to inconsistent VR interactions and fragmented dev implementations.",
+      "approach": [
+        "Researched VR interaction patterns and benchmarked successful XR apps",
+        "Defined reusable UI patterns and interaction primitives for spatial interfaces",
+        "Created a Figma UI kit and documentation hub in Confluence",
+        "Collaborated with engineers to map components to Unity implementations"
+      ],
+      "outcome": "Established reusable VR UI patterns, improved cross-team alignment, and reduced implementation inconsistencies."
+    },
+    {
+      "slug": "onboarding-guides-documentation",
+      "title": "Onboarding Guides and Feature Documentation",
+      "year": "2023",
+      "role": "Documentation Owner / Design Ops",
+      "tools": ["Confluence", "FigJam", "Notion"],
+      "blurb": "Structured product documentation to improve team autonomy and knowledge sharing.",
+      "hero": "",
+      "gallery": [],
+      "problem": "New team members and cross-functional colleagues lacked clear documentation, causing onboarding friction and duplicated work.",
+      "approach": [
+        "Audited existing materials and documentation gaps",
+        "Defined a scalable documentation structure and templates",
+        "Created feature guides, onboarding checklists, and audience-specific summaries",
+        "Centralized content in Confluence and promoted adoption across squads"
+      ],
+      "outcome": "Faster onboarding, fewer repeated questions, and a single source of truth for feature knowledge."
+    },
+    {
+      "slug": "unreal-ui-kit",
+      "title": "Design Elements in Unreal Engine",
+      "year": "2022",
+      "role": "XR UI Engineer / Designer",
+      "tools": ["Unreal Engine", "Figma", "Atomic Design"],
+      "blurb": "Recreated the Figma UI kit inside Unreal to enable consistent, reusable UI components for developers.",
+      "hero": "",
+      "gallery": [],
+      "problem": "Developers struggled to translate Figma designs into Unreal, causing layout inconsistencies and manual rebuilds.",
+      "approach": [
+        "Mapped Figma atomic components (atoms, molecules, organisms) to Unreal widgets",
+        "Rebuilt common components as standardized whitebox widgets",
+        "Documented styling, spacing, and usage rules to mirror the Figma system",
+        "Validated components through developer feedback and integration tests"
+      ],
+      "outcome": "Reduced manual UI rebuilds, improved visual consistency, and accelerated developer implementation."
+    },
+    {
+      "slug": "prototyping-workflow",
+      "title": "Rapid Prototyping Framework",
+      "year": "2023",
+      "role": "Design Lead",
+      "tools": ["Figma", "ProtoPie", "Loom"],
+      "blurb": "Validated concepts in days instead of weeks.",
+      "hero": "",
+      "gallery": [],
+      "problem": "Lengthy design cycles delayed product validation.",
+      "approach": [
+        "Built low-fi to hi-fi prototype templates",
+        "Created testing script library",
+        "Streamlined stakeholder review"
+      ],
+      "outcome": "Concept-to-validation time reduced from 3 weeks to 5 days."
+    }
+  ],
+  "product_management": [
+    {
+      "slug": "product-strategy-roadmap",
+      "title": "Product Strategy and Roadmap Alignment",
+      "year": "2024",
+      "role": "Product Designer / Product Owner",
+      "tools": ["FigJam", "Confluence", "Azure DevOps"],
+      "blurb": "Defined a structured roadmap and communication formats to align leadership and squads.",
+      "hero": "",
+      "gallery": [],
+      "problem": "Leadership goals were not translated into actionable plans, causing misaligned priorities and fragmented efforts across teams.",
+      "approach": [
+        "Audited initiatives and backlog to identify overlaps and gaps",
+        "Designed a tiered roadmap framework linking short-term deliverables to long-term bets",
+        "Introduced a cadence of three releases per year with MVPs for each cycle",
+        "Created tailored visual artifacts for different audiences"
+      ],
+      "outcome": "Improved cross-team alignment, clearer prioritization, and a repeatable release cadence that reduced scope drift."
+    },
+    {
+      "slug": "release-and-backlog-management",
+      "title": "Release Planning and Backlog Management",
+      "year": "2024",
+      "role": "Feature Owner / Release Coordinator",
+      "tools": ["Azure DevOps", "Jira", "Confluence"],
+      "blurb": "Organized work items and clarified ownership to accelerate delivery and reduce bug backlog.",
+      "hero": "",
+      "gallery": [],
+      "problem": "High volume of untriaged issues and unclear ownership slowed releases and increased rework.",
+      "approach": [
+        "Structured feature tables with owners, effort estimates, and priorities",
+        "Implemented sprint-level tracking and release dashboards",
+        "Coached teams on writing clear user stories and acceptance criteria",
+        "Coordinated cross-functional reviews to validate scope before implementation"
+      ],
+      "outcome": "Reduced backlog noise, improved visibility into release scope, and increased predictability of delivery."
+    },
+    {
+      "slug": "roadmap-prioritization",
+      "title": "Data-Driven Roadmap Framework",
+      "year": "2024",
+      "role": "Product Designer",
+      "tools": ["ProductBoard", "Mixpanel", "Miro"],
+      "blurb": "Aligned design and PM on feature prioritization.",
+      "hero": "",
+      "gallery": [],
+      "problem": "Feature requests overwhelmed team without clear prioritization.",
+      "approach": [
+        "Created RICE scoring framework",
+        "Integrated user research data",
+        "Facilitated quarterly planning"
+      ],
+      "outcome": "Shipped more high-impact features per quarter with clearer prioritization."
+    }
+  ],
+  "ux_research": [
+    {
+      "slug": "menu-redesign",
+      "title": "Primary Menu Redesign",
+      "year": "2023",
+      "role": "UX Researcher / Interaction Designer",
+      "tools": ["Figma", "Google Analytics", "User Interviews"],
+      "blurb": "Redesigned the primary product menu to improve clarity and visual unity.",
+      "hero": "",
+      "gallery": [],
+      "problem": "Users struggled to understand menu icons and labels, weakening navigation and cohesion.",
+      "approach": [
+        "Audited the current menu and identified friction points",
+        "Analyzed GA reports and user feedback to prioritize issues",
+        "Benchmarked comparable interfaces and best practices",
+        "Proposed a redesigned menu with clearer labels and iconography"
+      ],
+      "outcome": "Delivered a redesigned menu and guidelines that improved discoverability and visual consistency."
+    },
+    {
+      "slug": "vr-app-navigation",
+      "title": "VR App Navigation Redesign",
+      "year": "2022",
+      "role": "XR Interaction Designer",
+      "tools": ["Unity", "Figma", "Usability Testing"],
+      "blurb": "Redesigned a VR navigation system to align with familiar interaction standards.",
+      "hero": "",
+      "gallery": [],
+      "problem": "Existing navigation did not follow established VR interaction patterns, causing confusion during onboarding.",
+      "approach": [
+        "Conducted comparative analysis against industry VR platforms",
+        "Ran moderated usability sessions and observational research",
+        "Iterated navigation concepts and validated with users in VR prototypes", 
+        "Documented interaction patterns and handed off specs to engineering"
+      ],
+      "outcome": "Implemented a navigation model aligned with familiar VR standards, reducing user confusion and easing onboarding."
+    },
+    {
+      "slug": "usability-testing",
+      "title": "Moderated Testing Framework",
+      "year": "2024",
+      "role": "UX Researcher",
+      "tools": ["UserTesting", "Dovetail", "Miro"],
+      "blurb": "Standardized research process across the organization.",
+      "hero": "",
+      "gallery": [],
+      "problem": "Inconsistent research methods led to unreliable insights.",
+      "approach": [
+        "Created testing script templates",
+        "Trained team on facilitation",
+        "Built insight repository"
+      ],
+      "outcome": "Research velocity increased with higher quality and repeatability."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/Projects/Showcase/logo01.png",
+      "alt": "Logo Design",
+      "ratio": "16:9"
+    },
+    {
+      "src": "/Projects/Showcase/logo02.png",
+      "alt": "Logo Design",
+      "ratio": "1:1"
+    },
+    {
+      "src": "/Projects/Showcase/logo03.png",
+      "alt": "Logo Design",
+      "ratio": "3:4"
+    },
+    {
+      "src": "/Projects/Showcase/logo04.png",
+     "alt": "Logo Design",
+      "ratio": "16:9"
+    }
+      {
+      "src": "/Projects/Showcase/logo05.png",
+      "alt": "Logo Design",
+      "ratio": "3:4"
+    }
+      {
+      "src": "/Projects/Showcase/logo06.png",
+      "alt": "Logo Design",
+      "ratio": "1:1"
+    }
+        {
+      "src": "/Projects/Showcase/landing01.png",
+     "alt": "Logo Design",
+      "ratio": "16:9"
+    }
+      {
+      "src": "/Projects/Showcase/landing02.png",
+      "alt": "Logo Design",
+      "ratio": "3:4"
+    }
+      {
+      "src": "/Projects/Showcase/landing03.png",
+      "alt": "Logo Design",
+      "ratio": "1:1"
+    }
+        {
+      "src": "/Projects/Showcase/fh00.png",
+      "alt": "Logo Design",
+      "ratio": "1:1"
+    }    {
+      "src": "/Projects/Showcase/fh01.png",
+      "alt": "Logo Design",
+      "ratio": "1:1"
+    }
+       {
+      "src": "/Projects/Showcase/fh02.png",
+      "alt": "Logo Design",
+      "ratio": "3:4"
+    },
+    {
+      "src": "/Projects/Showcase/fh03.png",
+     "alt": "Logo Design",
+      "ratio": "16:9"
+    }
+        {
+      "src": "/Projects/Showcase/app02.png",
+      "alt": "Logo Design",
+      "ratio": "1:1"
+    },
+    {
+      "src": "/Projects/Showcase/app03.png",
+      "alt": "Logo Design",
+      "ratio": "3:4"
+    },
+    {
+      "src": "/Projects/Showcase/app04.png",
+     "alt": "Logo Design",
+      "ratio": "16:9"
+    }
+      {
+      "src": "/Projects/Showcase/app05.png",
+      "alt": "Logo Design",
+      "ratio": "3:4"
+    }
+      {
+      "src": "/Projects/Showcase/app01.png",
+      "alt": "Logo Design",
+      "ratio": "1:1"
+    }
+  ]
+}
